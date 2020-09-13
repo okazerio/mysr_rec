@@ -1,0 +1,468 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+li{
+    width: 108px;
+    margin: 0 0 0 -25px;
+    padding-left:10px;
+    border-radius: 5px;
+}
+.head_wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: -moz-linear-gradient(top, navy, indigo 50%, #FFF);
+    background: -webkit-linear-gradient(top, navy, indigo 50%, #FFF);
+    background: linear-gradient(to bottom, navy, indigo 30%, #FFF);
+}
+header{
+    min-width: 960px;
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    background: -moz-linear-gradient(top, navy, indigo 50%, #FFF);
+    background: -webkit-linear-gradient(top, navy, indigo 50%, #FFF);
+    background: linear-gradient(to bottom, navy, indigo 30%, #FFF);
+    color: white;
+}
+.main_wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main_container{
+    min-width: 960px;
+    width: 760px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 150px;
+    height: 130px;
+    margin: 20px auto 0 auto;
+    border: solid 1px silver;
+    border-radius: 5px;
+}
+nav li{
+    border: solid 1px silver;
+}
+nav a {
+    color: grey;
+}
+nav p{
+    text-align: center;
+    margin: 10px auto 0px auto;
+    background-color: silver;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    line-height: 30px;
+}
+.main_content{
+    width: 810px;
+    margin: 0 auto;
+}
+div.form{
+    border: solid 1px silver;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.form h3{
+    text-align: center;
+    margin: 10px auto;
+}
+.form form ul{
+    margin: 0 auto 20px auto;
+    width: 450px;
+    list-style: none;
+}
+.form ul li{
+    width: 400px;
+    margin: 0 0 0 5px;
+    margin-left: 30px;
+    padding: 0;
+}
+.form ul li label{
+    margin: 0 5px;
+    width:100px;
+    float:left;
+    clear:both;
+}
+div.form_user_container{
+    display: flex;
+    justify-content: center;
+}
+div.form_user{
+    border: solid 1px silver;
+    border-radius: 5px;
+    width: 350px;
+    margin: 20px 20px;  
+}
+.form_user h3{
+    text-align: center;
+    margin: 10px auto;
+}
+.form_user form ul{
+    margin: 0 auto 20px auto;
+    width: 300px;
+    list-style: none;
+    }
+.form_user ul li{
+    width: 300px;
+    margin: 0 0 0 5px;
+    margin-left: -21px;
+    padding: 0;
+}
+.form_user ul li label{
+    margin: 0 5px 0 0;
+    width:120px;
+    float:left;
+    clear:both;
+}
+div.item_list{
+    border: solid 1px silver;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    
+}
+.item_list h3{
+    text-align: center;
+    margin: 10px auto;
+    
+}
+.item_list table{
+    margin: 0 auto;
+    cellpadding: 0;
+}
+.item_list table tr.unopen{
+    background-color: silver;
+}
+.item_list table td img{
+    width: 110px;
+    height: auto;
+    vertical-align: top; /*画像下の余白を削除*/
+}
+.item_list table td input.qty{
+    width: 70px;
+    font-size: 1em;
+    text-align: right;
+    padding:0;
+    margin: 0;
+}
+.item_list table td input.update_btn{
+    display: block;
+    margin: 10px auto 0 auto;
+}
+.item_list table td.price {
+    text-align: center;
+    width: 90px;
+}
+.item_list table td.item_id {
+    text-align: center;
+}
+.item_list table td.qty_sta_del {
+    text-align:center;    
+    
+}
+div.user_list{
+    border: solid 1px silver;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    
+}
+.user_list h3{
+    text-align: center;
+    margin: 10px auto;
+    
+}
+.user_list p{
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.user_list table{
+    margin: 0 auto;
+    cellpadding: 0;
+}
+.user_list table tr.admin{
+    background-color: gold;
+}
+.user_list table td input.update_btn{
+    display: block;
+    margin: 0 auto;
+    
+}
+.user_list table td.id {
+    text-align: center;
+}
+.user_list table td.delete {
+    text-align:center;    
+}
+div.select{
+    margin: 7px;
+    display: flex;
+    padding: 0;
+}
+div.weather{
+    border: solid 1px silver;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+div.weather_select{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+div.weather_select h3{
+    margin: 10px auto;
+    /*padding: 0;*/
+}
+div.weather_select select{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+div.paging{
+    text-align:center;    
+    
+}
+.user_list a{
+    text-decoration: none;
+    color: black;
+    display: inline; /*上部にある全体a'block'の打ち消し*/
+    
+}
+
+.foot_wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #E6FFE9;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    background: -moz-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174); 
+    background: -webkit-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174); 
+    background: linear-gradient(to bottom,#FFF,#FFC778 40%,#F89174); 
+    
+}
+.header_item{
+}
+.header_top{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /*border: solid 1px red;*/
+}
+.header_bottom{
+/*    display: flex;
+    justify-content: center;*/
+    /*border: solid 1px red;*/
+    margin: 0;
+    padding:0;
+}
+
+.header_top h1{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 50px;
+    margin: 5px 0 2px 0;
+}
+.header_bottom ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    width: auto;
+    /*border: solid 1px yellow;*/
+    display: flex;
+    justify-content: center;
+}
+.header_bottom ul li{
+    border-right: solid 1px white;
+    border-radius: 0;
+    border-right-style: groove;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 90px;
+    /*height: auto;*/
+    /*border: solid 1px pink;*/
+    line-height: 15px;
+}
+
+.header_bottom ul li:last-child{
+   border: none;
+}
+
+.header_bottom ul li a{
+    margin: 0;
+    padding:0;
+}
+
+span.fa-instagram{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 20px;
+}
+span.fa-youtube-play{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+}
+.user_name{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left:15px;
+    font-size: 1em;
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.user_name span{
+    font-weight: bold;
+}
+.user_name a{
+    display: inline-block;
+    color: yellow;
+}
+span.fa-shopping-cart{
+    position: absolute;
+    top: 12px;
+    right: 95px;
+    font-size: 20px;
+}
+span.fa-user{
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    font-size: 25px;
+}
+span.fa-sign-out{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    background: orange;
+    box-shadow: 0 3px 0 #FFCC99;
+    cursor: pointer;
+    width: 125px;
+    height: 25px;
+    border: none;
+    font-size: 1em;
+    display: block;
+    margin: 0 0 0 auto;
+}
+.btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    
+}
+.btn:hover {
+    opacity: 0.6;
+}
+.notion{
+    color: red;
+    font-size:13px;
+    margin: 0 auto 3px auto;
+    text-align: center;
+}
+.border table{
+    margin: 0 auto;
+}
+div.weather_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.weather_item{
+    width: 140px;
+}
+.weather_item ul{
+    list-style: none;
+    margin: 0;
+    border-radius: 5px;
+    border: solid 1px silver;
+}
+
+.weather_item ul li{
+    width: 110px;
+    margin: 0 0 0 -40px;
+    padding-right:  15px;
+    text-align: center;
+}
+span.fa-instagram{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 20px;
+}
+span.fa-soundcloud{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-size: 20px;
+}
+span.fa-youtube-play{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+}
+span.fa-shopping-cart{
+    position: absolute;
+    top: 12px;
+    right: 95px;
+    font-size: 20px;
+}
+span.fa-user{
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    font-size: 25px;
+}
+span.fa-sign-out{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
