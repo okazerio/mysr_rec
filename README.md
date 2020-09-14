@@ -12,6 +12,7 @@ https://mysorerecords.herokuapp.com<br>
 <br>
 <strong>デモ（商品ページ→カートページ→コンファームページのフロー）</strong><br>
 ![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)<br>
+<br>
 <strong>画面遷移図</strong><br>
 ![Untitled Diagram](https://user-images.githubusercontent.com/70677663/93047030-6f3cbc00-f696-11ea-9ea6-1d81b2e86a5f.png)
 
