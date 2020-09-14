@@ -10,7 +10,7 @@ PHPとMySQLを用いて、画面設計・要件定義・データベース設計
 こちらからアクセスできます。<br>
 https://mysorerecords.herokuapp.com<br>
 <br>
-<strong>デモ（商品ページ→カートページ→コンファームページのフロー）</strong><br>
+<strong>デモ（商品ページ　→　カートページ　→　コンファームページのフロー）</strong><br>
 ![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)<br>
 <br>
 <strong>画面遷移図</strong><br>
