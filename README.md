@@ -9,6 +9,7 @@ PHPとMySQLを用いて画面設計・要件定義・データベース設計ま
 # 成果物
 こちらからアクセスできます。<br>
 https://mysorerecords.herokuapp.com<br>
+https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif<br>
 <p>ログイン時のIDおよびPW</p>
 <ul>
 <li>管理者　： ID: admin　PW: admin<br>
