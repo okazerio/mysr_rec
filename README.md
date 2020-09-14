@@ -9,14 +9,15 @@ PHPとMySQLを用いて画面設計・要件定義・データベース設計ま
 # 成果物
 こちらからアクセスできます。<br>
 https://mysorerecords.herokuapp.com<br>
-https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif<br>
+![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)
 <p>ログイン時のIDおよびPW</p>
 <ul>
 <li>管理者　： ID: admin　PW: admin<br>
 <li>ユーザー： ID: user 　 PW: user<br>
 </ul>
 当該サイトは、ログインしなくてもゲストとして購入まで行えます。<br>
-権限として、管理者は管理者ページとユーザーページの両方にアクセスできます。<br>
+権限は次の通りです。
+管理者は管理者ページとユーザーページの両方にアクセスできます。<br>
 ユーザーはユーザーページのみで、ゲストもユーザーと同様です。<br>
 ユーザーとゲストとの違いは、カートページでの購入者情報を入力するか<br>
 しないかの違いとなります。（ゲストは入力必須です。）<br>
