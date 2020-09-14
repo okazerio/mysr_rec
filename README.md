@@ -14,7 +14,11 @@ https://mysorerecords.herokuapp.com<br>
 ![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)<br>
 <br>
 <strong>画面遷移図</strong><br>
-![Untitled Diagram](https://user-images.githubusercontent.com/70677663/93047030-6f3cbc00-f696-11ea-9ea6-1d81b2e86a5f.png)
+![Untitled Diagram](https://user-images.githubusercontent.com/70677663/93047030-6f3cbc00-f696-11ea-9ea6-1d81b2e86a5f.png)<br>
+<br>
+<strong>データベースER図</strong><br>
+![dbDiagram](https://user-images.githubusercontent.com/70677663/93052472-2b9b7f80-f6a1-11ea-9d20-de5e6eb1b4cf.png)<br>
+
 
 
 <p>ログイン時のIDおよびPW</p>
