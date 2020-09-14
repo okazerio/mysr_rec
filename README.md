@@ -43,7 +43,8 @@ https://mysorerecords.herokuapp.com<br>
 </ul>
 <p>【管理者ページ】</p>
 <ul>
-<li>アイテムの登録・変更・削除（画像はJPEG/PNG）
+<li>アイテムの登録・変更・削除
+<li>アイテム画像をデータベースに登録（1MB以下、JPEG/PNGのみ）
 <li>ユーザーの登録・変更・削除
 <li>ユーザー一覧のページネーション
 <li>天気予報をWeb APIで取得(インド/カリフォルニア/東京)
