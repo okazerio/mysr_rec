@@ -13,7 +13,7 @@ https://mysorerecords.herokuapp.com<br>
 <strong>デモ（商品ページ→カートページ→コンファームページのフロー）</strong><br>
 ![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)<br>
 <strong>画面遷移図</strong><br>
-![mysrrecDiagram](https://user-images.githubusercontent.com/70677663/93046796-ba0a0400-f695-11ea-8452-a939c3c907f3.png)<br>
+![Untitled Diagram](https://user-images.githubusercontent.com/70677663/93047030-6f3cbc00-f696-11ea-9ea6-1d81b2e86a5f.png)
 
 
 <p>ログイン時のIDおよびPW</p>
