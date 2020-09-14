@@ -8,8 +8,9 @@ PHPとMySQLを用いて、画面設計・要件定義・データベース設計
 
 # 成果物
 こちらからアクセスできます。<br>
-デモ（商品選択から購入の確定までのフロー）<br>
 https://mysorerecords.herokuapp.com<br>
+<br>
+デモ（商品選択から購入の確定までのフロー）<br>
 ![mysore](https://user-images.githubusercontent.com/70677663/93037484-7e634000-f67d-11ea-8866-e48c041aaa0d.gif)
 <p>ログイン時のIDおよびPW</p>
 <ul>
